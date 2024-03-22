@@ -1,0 +1,17 @@
+---
+import Social from "../components/Social.astro";
+const userName = "SergioCzp";
+---
+
+<style>
+  footer {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+</style>
+
+<footer>
+  <Social platform="github" username={userName} />
+  <Social platform="instagram" username={userName} />
+</footer>
